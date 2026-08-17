@@ -1,2 +1,1 @@
-# Basic-Chatbot
 # Gemini-Chatbot
