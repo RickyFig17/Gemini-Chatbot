@@ -1,0 +1,36 @@
+# Created by venv; see https://docs.python.org/3/library/venv.html
+# Environment & Secret Keys (CRITICAL)
+.env
+.env.local
+.env.*.local
+*.env
+.env.*
+
+# Python / FastAPI
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+env/
+
+# Node / React (Vite)
+node_modules/
+dist/
+dist-ssr/
+*.local
+.vite/
+
+# IDE & OS Files
+.DS_Store
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
